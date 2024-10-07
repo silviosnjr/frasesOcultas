@@ -21,6 +21,6 @@ const frases = [
     "Resiliência é a arte de não desistir, mesmo nos piores momentos."
   ];
   
-for (let i=1; i<=20; i++){
+for (let i=0; i<=20; i++){
     criaCartao("", i);
 }
