@@ -1,4 +1,5 @@
 const frases = [
+    "Limbo - você deve ter escolhido a frase zero 0, escolha outra",
     "A resiliência é o segredo do sucesso!",
     "Errar faz parte do processo de aprendizado.",
     "Com determinação, todo desafio é superável.",
@@ -21,6 +22,6 @@ const frases = [
     "Resiliência é a arte de não desistir, mesmo nos piores momentos."
   ];
   
-for (let i=0; i<=20; i++){
+for (let i=1; i<=20; i++){
     criaCartao("", i);
 }
